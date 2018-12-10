@@ -29,7 +29,7 @@ public class Test_Steps {
     @When("^User enters Password$")
     public void user_enters_Password() {
         // Write code here that turns the phrase above into concrete actions
-        driver.findElement(By.id("login-password")).sendKeys("Berlin@2018");
+        driver.findElement(By.id("login-password")).sendKeys("2018");
         driver.findElement(By.id("login-submit")).click();
         //Thread.sleep(1000);
     }

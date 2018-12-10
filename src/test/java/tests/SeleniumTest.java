@@ -23,7 +23,7 @@ public class SeleniumTest {
 
         String username = driver.findElement(By.xpath(".//*[@id='voyager-feed']/div[2]/aside[1]/div/div/div/div[1]/a[2]")).getText();
 
-        Assert.assertEquals(username, "Ashish Deshmukh");//Replace with your profile name
+        Assert.assertEquals(username, "sreelesh kunnath");//Replace with your profile name
 
         driver.quit();
 
